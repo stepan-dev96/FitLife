@@ -12,7 +12,7 @@ user_height = float(input(
 
 bmi = round(user_weight / (user_height ** 2), 1)
 print(
-    f'\n{user_name}, Ваш индекс массы тела равен: {bmi}'
+    f'\n{user_name}, Ваш индекс массы тела равен: {bmi}',
 )
 
 water_ml = user_weight * 30
