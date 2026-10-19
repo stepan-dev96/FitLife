@@ -15,7 +15,7 @@ print(
     f'\n{user_name}, Ваш индекс массы тела равен: {bmi}',
 )
 
-WATER = user_weight * 30/1000
+WATER = user_weight * 30 / 1000
 print(f"Рекомендуемая норма воды: {WATER}л.")
 
 report = (
