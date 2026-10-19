@@ -1,7 +1,7 @@
 print('Добро пожаловать!')
 
 user_name = input('Как Вас зовут? ')
-user_age = input('Сколько Вам лет? ')
+user_age = input int('Сколько Вам лет? ')
 
 user_weight = float(input(
     'Укажите Ваш вес в килограммах (например, 80.2): '
