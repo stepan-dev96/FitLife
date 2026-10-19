@@ -1,7 +1,7 @@
 print('Добро пожаловать!')
 
 user_name = input('Как Вас зовут? ')
-user_age = int(input('Сколько Вам лет? '))
+user_age = input('Сколько Вам лет? ')
 
 user_weight = float(input(
     'Укажите Ваш вес в килограммах (например, 80.2): '
@@ -15,14 +15,13 @@ print(
     f'\n{user_name}, Ваш индекс массы тела равен: {bmi}',
 )
 
-water_ml = user_weight * 30
-water_l = water_ml / 1000
-print(f"Рекомендуемая норма воды: {water_l} л ({water_ml} мл)")
+WATER = user_weight * 30/1000
+print(f"Рекомендуемая норма воды: {WATER}л.")
 
 report = (
     f'Вот отчет для тебя: {user_name}, {user_age} лет.\n'
     f'Твой индекс массы тела равен: {bmi:.1f}\n'
-    f'Рекомендуемая норма воды {water_l:.2f} л.\n'
+    f'Рекомендуемая норма воды {WATER:.2f}л.\n'
 )
 print(f"\n{report}\n")
 print("Расчет окончен. Будьте здоровы!")
